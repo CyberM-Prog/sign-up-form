@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+body > div {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    height: 100vh;
+}
+
+#background {
+    width: 35vw;
+    background-image: url("");
+}
+
+#form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    height: calc(100vh / 6);
+    margin-top: calc(100vh / 5);
+}
+
+.center {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    height: 30vh;
+
+}
+
+.text {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    height: 35vh;
+}
+
+.button {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    height: 35vh;
+}
