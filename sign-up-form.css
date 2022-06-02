@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(./Ubuntu-Bold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -17,6 +23,7 @@ body > div {
 
 #background {
     width: 35vw;
+    min-width: 35vw;
     background-image: url("");
 }
 
@@ -25,6 +32,8 @@ body > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 45px;
+    
 }
 
 .logo {
@@ -33,6 +42,7 @@ body > div {
     border-color: red;
     height: calc(100vh / 6);
     margin-top: calc(100vh / 5);
+    font-family: Ubuntu;
 }
 
 .center {
@@ -56,3 +66,25 @@ body > div {
     border-color: red;
     height: 35vh;
 }
+
+label {
+    display: block;
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 25vh;
+
+}
+
+.input div {
+    margin-right: 150px;
+}
+
+button {
+    margin-top: 50px;
+}
+
+
