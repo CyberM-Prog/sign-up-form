@@ -31,7 +31,7 @@ body > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 45px;
+    background-color:whitesmoke;
     
 }
 
@@ -49,7 +49,7 @@ body > div {
 
 #darkbg {
     background-color: black;
-    opacity: 0.2;
+    opacity: 0.3;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -77,25 +77,21 @@ img {
 }
 
 .center {
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
     height: 30vh;
+    background-color: white;
+    padding-left: 45px;
 
 }
 
 .text {
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
     height: 35vh;
+    
 }
 
 .button {
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
     height: 35vh;
+    padding-left: 45px;
+
 }
 
 label {
